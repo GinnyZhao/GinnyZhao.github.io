@@ -134,7 +134,7 @@ legend {
     color: #666666;}
     
 li {
-    list-style-image: url("images/icon-plus.png");
+    /* list-style-image: url("images/icon-plus.png"); */
     line-height: 1.6em;}
 
 .menu-holder {
