@@ -3,6 +3,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Berkshire+Swash&display=swap');
+
 body {
     font-family: "Open Sans";
     font-size: 90%;
@@ -134,13 +135,11 @@ legend {
     color: #666666;}
     
 li {
-    /* list-style-image: url("images/icon-plus.png"); */
     line-height: 1.6em;}
 
 .menu-holder {
     float: right;
     max-width: 80%;
-    /* position: fixed; */
     text-align: center;
     height: 100%;
     background-color: #ffffff;
