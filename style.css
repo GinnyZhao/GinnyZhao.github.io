@@ -1,0 +1,254 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Berkshire+Swash&display=swap');
+body {
+    font-family: "Open Sans";
+    font-size: 90%;
+    color: #666;
+    background-color: #016a86;}
+
+
+.center-mid-1{
+    width: 940px;
+    background-color: #BEB594;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    }
+
+.center-mid-2{
+    width: 940px;
+    background-color: #efeae6;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    }
+
+.center-mid-3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 940px;
+    background-color: #dee1e5;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    justify-items: center;
+    align-items: center;
+    }
+
+.center-2>h1, .center-2>p{
+    text-align: center;
+}
+
+.center-2{
+    width: 940px;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    }
+
+.center-3{
+    width: 300px;
+    margin: 0 0;
+    }
+    
+.center-text {
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+fieldset {
+    width: 310px;
+    margin-top: 20px;
+    border: 1px solid #d6d6d6;
+    background-color: #cae6d1;
+    line-height: 1.6em;}
+
+figcaption {
+    text-align: center;
+}
+
+.four-col{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.four-col-pic{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footer {
+    text-align: center;
+}
+
+.gallery-text {
+    text-align: center;
+}
+
+h1.center-text
+{
+    font-family: 'Berkshire Swash', serif;
+    font-size: 300%;
+}
+
+.img-1{
+    margin: auto;
+    width: 100%;
+}
+.img-2{
+    margin: auto;
+    width: 30%;
+    padding-left: 10px;
+    image-orientation: from-image;
+}
+
+input[type="text"] {
+    width: 120px;
+    border: 1px solid #d6d6d6;
+    padding: 2px;
+    outline: none;}
+input[type="text"]:focus,
+input[type="text"]:hover {
+    background-color: #d0e2f0;
+    border: 1px solid #999999;}
+input[type="submit"] {
+    border: 1px solid #006633;
+    background-color: #009966;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;}
+input[type="submit"]:hover {
+    border: 1px solid #006633;
+    background-color: #00CC33;
+    color: #ffffff;
+    cursor: pointer;}
+
+legend {
+    font-style: italic;
+    color: #666666;}
+    
+li {
+    list-style-image: url("images/icon-plus.png");
+    line-height: 1.6em;}
+
+.menu-holder {
+    float: right;
+    max-width: 80%;
+    /* position: fixed; */
+    text-align: center;
+    height: 100%;
+    background-color: #ffffff;
+    right: -100%;
+    top: 0;
+    transition: right .3s ease;
+    width: 100%;
+    overflow: auto;
+    max-width: 100%;
+    z-index: 99;
+        }  
+
+#page {
+    max-width: 940px;
+    min-width: 720px;
+    margin: 10px auto 10px auto;
+    
+    border: 4px  #000;
+    background-color: #f6f4e8;
+    vertical-align: baseline;
+}
+
+.smlogo {
+    height: 25px;
+}
+
+table {
+    border-spacing: 0px;}
+
+.two-col{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.two-col-pic{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+td {
+    text-shadow: 1px 1px 1px #ffffff;}
+
+th, td {
+    padding: 5px 30px 5px 10px;
+    border-spacing: 0px;
+    font-size: 90%;
+    margin: 0px;}
+
+th, td {
+    text-align: left;
+    background-color: #d8e6d9;
+    border-top: 1px solid #f1f8fe;
+    border-bottom: 1px solid #cbd2d8;
+    border-right: 1px solid #cbd2d8;}
+
+tr.head th {
+    color: #fff;
+    background-color: #628c65;
+    border-bottom: 2px solid #547ca0;
+    border-right: 1px solid #749abe;
+    border-top: 1px solid #90b4d6;
+    text-align: center;
+    text-shadow: -1px -1px 1px #666666;
+    letter-spacing: 0.15em;}
+
+tr.even td, tr.even th {
+    background-color: #e3ffe5;}
+
+tr.head th:first-child {
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;}
+
+tr.head th:last-child {
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;}
+
+.title {
+    float: left;
+    width: 160px;
+    clear: left;}
+.submit {
+    width: 310px;
+    text-align: right;}
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+    }
+
+ul li {
+    display: inline;
+    padding: 10px;
+    float: right;
+}
+
+   ul li a, 
+   ul a :hover, 
+ul li a:focus, 
+ul li a:active {
+border: none;
+text-decoration: none;
+color: inherit;
+}
+
+video{
+    width: 70%;
+    margin-left: 15%;
+
+}
