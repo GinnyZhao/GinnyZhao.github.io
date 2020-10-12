@@ -1,94 +1,102 @@
 
-<!-- site url: https://ginnyzhao.github.io/ -->
+
+
+
 <!DOCTYPE html>
-<html>
-	<head>
-		<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;500&family=Open+Sans&display=swap" rel="stylesheet">
-		<title>67-240 Assignment 1 - Ginny Zhao</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<meta name="Ginny" content="personal website" description="A website describing myself" author="Ginny Zhao" keywords="hobby schedule contact">
-	</head>	
-	
-	<body>
-		<!-- code for top nav bar -->
-		<div id="page">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-			<div class="menu-holder">
-                        <nav id="header-main-menu">
-                            <ul class="main-menu ">
-                                <li>
-                                    <a href="index.html"> Home </a>
-                                </li>
-                                <li>
-                                    <a href="schedule.html">Courses</a>
-                                </li>
-                                <li>
-                                    <a href="hobbies.html">Hobbies</a>
-                                </li>
-                                <li>
-                                    <a href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </nav>
-            </div>
+  <title>CMU Art Gallery</title>
 
-		<div>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;500&family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
 
-		<!-- code for intro paragraph -->
-		<h3 class="center-text"> Hi there! This is Ginny.</h3>
-		<p class="center-text">
-			I'm a junior at Carnegie Mellon University based in Pittsburgh, PA. I'm majoring in statistics and machine learning with a minor in media design. I am passionate about using big data to inform my design decisions, come up with design solutions that address peoples' needs and promote the well-being of everyday lives.
-		</p>
+  <link rel="stylesheet" type="text/css" href="style.css">
 
-		<p class="center-text">
+</head>
+<body>
+  <div class="wrapper">
+    <!-- top navigation bar -->
+    <div id="topbar">
+    </div>
 
-			I really enjoy jogging at my free time, especially on Saturday mornings where the city is super quiet. Cooking is another interest that I picked up during qurantine. My friends say that I'm a professional Youtube-watching chef because I spent so much time watching youtube food tutorials. I also enjoy travelling a lot (I missed the good old days when travelling is still a thing). I like to film silly videos every time I go on a trip, so editing the travelling video afterwards is always a fun experience.
-		</p>
+    <div>
+      <div class="nested">
+        <img src="site_images/logo.png" alt="site_logo">
+        <h1> CMU Art Gallery </h1>
+      </div>
+    </div> 
 
-		<h3 class="center-text"> Check out the hobby page for more information! </h3>
-		</div>
-		<br/>
+    <div style="border-top: 1px solid lightgray;">
+      <nav class="nav-bar">
+        <ul>
+          <li>
+            <a href="#">Exhibition</a>
+          </li>
+          <li>
+            <a href="#">Events</a>
+          </li>
+          <li>
+            <a href="#">Artists</a>
+          </li>
+          <li>
+            <a href="store.html">Store</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- site image -->
+    <div>
+      <figure> <img src="site_images/home.png" alt="homepage picture"></figure>
+    </div>
+    <br>
 
-			<figure>
-				<img class ="img-1" src="img/pgh.jpg" alt="pittsburgh sunset"/>
-				<p>
-					<figcaption>
-						downtown @ pittsburgh
-					</figcaption>
-				</p>
-			</figure>
+    <!-- the two text boxes -->
+    <div class="box">
+      <div class="textbox">
+          <h3>Welcome Art Gallery @ CMU</h3>
+          <p>We are here to provide you with the latest information about various exhibition, art events, active artists and art store here at Carnegie Mellon. </p>
+      </div>
+      <div class="textbox">
+        <h3>Feel Free to reach out!</h3>
+        <p>Looking for a place to publicize your exhibition? Feel free to contact us if you would like to feature on our exhibition page. We are here for you!</p>
+      </div>
+    </div>
+    
+    <!-- footer -->
+    <footer>
+      <nav class="footer-nav">
+        <ul>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+          <li>
+            <a href="#">Site Map</a>
+          </li>
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#">Careers</a>
+          </li>
+          <li>
+            <a href="#">Reviews</a>
+          </li>
+          <li>
+            <a href="#">Designed by Ginny Zhao</a>
+          </li>
+        </ul>
+      </nav>
 
-		<!-- code for photo gallery at the bottom -->
-		<br/> <br/> <br/>
-		<div class = "center-mid-1">
-			<h4 class="gallery-text">Photo Gallery</h4>
-			<p class="gallery-text">
-				<img class ="img-2" src="img/frontpage_1.JPG" alt="picture1"/>
-				<img class ="img-2" src="img/frontpage_2.jpg" alt="picture2"/>
-				<img class ="img-2" id="norightpadding" src="img/frontpage_3.jpg" alt="picture3" />
-		</p>
-	   </div>
-	
-		</div>
-
-		<!-- code for footer -->
-		<footer class="footer">
-			<div>
-					<p> © 2020 </p>
-				<div class="socialmedia"> 
-					<a href="#">
-						<span class="twitter"> <img class= "smlogo" src="img/fb.png"/></span>
-					</a> 
-					<a href="#">
-						<span class="facebook"> <img class= "smlogo" src="img/twitter.png"/></span>
-					</a> 
-					<a href="#">
-						<span class="fa fa-pinterest-p"> <img class= "smlogo" src="img/ins.png"/> </span>
-					</a> 
-				</div>
-			</div>
-        </footer>
-	</body>
+    </footer>
 
 
+  </div>
+</body>
 </html>

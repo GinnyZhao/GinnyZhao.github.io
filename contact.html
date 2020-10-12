@@ -1,83 +1,91 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;500&family=Open+Sans&display=swap" rel="stylesheet">
-		<title>67-240 Assignment 1 - Ginny Zhao</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-	<body>
-		<!-- code for top nav bar -->
-		<div id="page">
-			<div class="menu-holder">
-				<nav id="header-main-menu">
-					<ul class="main-menu ">
-						<li>
-							<a href="index.html"> Home </a>
-						</li>
-						<li>
-							<a href="schedule.html">Courses</a>
-						</li>
-						<li>
-							<a href="hobbies.html">Hobbies</a>
-						</li>
-						<li>
-							<a href="contact.html">Contact</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CMU Art Gallery</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;500&family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+  <div class="wrapper">
+    <!-- top navigation bar -->
+    <div id="topbar">
+    </div>
+
+    <div>
+      <div class="nested">
+        <a href="index.html"><img src="site_images/logo.png" alt="site_logo"></a>
+        <h1> CMU Art Gallery </h1>
+      </div>
+    </div> 
+
+    <div style="border-top: 1px solid lightgray; border-bottom: 1px solid lightgray;">
+      <nav class="nav-bar">
+        <ul>
+          <li>
+            <a href="#">Exhibition</a>
+          </li>
+          <li>
+            <a href="#">Events</a>
+          </li>
+          <li>
+            <a href="#">Artists</a>
+          </li>
+          <li>
+            <a href="store.html">Store</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <br>
+    <h2 class="contact"> To submit a featuring request, send inquires here: </h2>
+    <br>
+    <a class="contact" href="mailto:cmuart@gmail.com">Email US</a>
+    <br>
+    <h2 class="contact"> Or visit us at Carnegie Mellon University </h2>
+    <br>
+    <iframe class="contact" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.4700879866255!2d-79.94514388436042!3d40.44273137936207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f21f58679a9f%3A0x88716b461fc4daf4!2sCarnegie%20Mellon%20University!5e0!3m2!1sen!2sus!4v1602470387557!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <br>
+    
+    <!-- footer -->
+    <footer>
+      <nav class="footer-nav">
+        <ul>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+          <li>
+            <a href="#">Site Map</a>
+          </li>
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#">Careers</a>
+          </li>
+          <li>
+            <a href="#">Reviews</a>
+          </li>
+          <li>
+            <a href="#">Designed by Ginny Zhao</a>
+          </li>
+        </ul>
+      </nav>
+
+    </footer>
 
 
-
-        <br/>
-		<!-- code for contact form and the map-->
-		<h1 class= "center-text"> Contact me </h1>
-		
-		<div class = "center-mid-3">
-			<div>
-				<form action="http://www.example.com/form.php" method="get">
-					<fieldset >
-						<!-- <legend class = "center-3"> Fill me to reach out!</legend> -->
-						<p><label class="title" for="name">Your name:</label>
-							 <input type="text" name="name" id="name"><br />
-							 <label class="title" for="email">Your email:</label>
-							 <input type="text" name="email" id="email"></p>
-						<p><label for="location" class="title">Your closest center:</label>
-							 <select name="location" id="location">
-								 <option value="ny">New York</option>
-								 <option value="il">Chicago</option>
-								 <option value="ca">San Francisco</option>
-							 </select></p>
-						<span class="title">Are you a member?</span>
-						<label><input type="radio" name="member" value="yes" /> Yes</label>
-						<label><input type="radio" name="member" value="no" /> No</label></p>
-					</fieldset>
-				 <div class="submit"><input type="submit" value="Register" /></div>
-				</form>
-			</div>
-
-			<div>
-				<iframe id = "map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.4700879866255!2d-79.94514388475422!3d40.44273137936207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f21f58679a9f%3A0x88716b461fc4daf4!2sCarnegie%20Mellon%20University!5e0!3m2!1sen!2sus!4v1600872525790!5m2!1sen!2sus" width="300" height="225" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-			</div>
-		</div>
-
-		<!-- code for footer -->
-		<footer class="footer">
-			<div>
-					<p> © 2020 </p>
-				<div class="socialmedia"> 
-					<a href="#">
-						<span class="twitter"> <img class= "smlogo" src="img/fb.png"/></span>
-					</a> 
-					<a href="#">
-						<span class="facebook"> <img class= "smlogo" src="img/twitter.png"/></span>
-					</a> 
-					<a href="#">
-						<span class="fa fa-pinterest-p"> <img class= "smlogo" src="img/ins.png"/> </span>
-					</a> 
-				</div>
-			</div>
-        </footer>
-
-	</body>
+  </div>
+</body>
 </html>
